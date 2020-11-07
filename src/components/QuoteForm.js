@@ -8,7 +8,7 @@ class QuoteForm extends Component {
   
   state = {
     //set up a controlled form with internal state
-          // id: uuid,
+          
            content: '',
            author: ''       
   }
@@ -30,7 +30,7 @@ class QuoteForm extends Component {
     
     this.props.addQuote(this.state)
     this.setState({
-          // id: uuid,
+          
            content: '',
            author: ''  
     })
